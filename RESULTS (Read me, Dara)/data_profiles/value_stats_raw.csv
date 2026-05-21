@@ -1,37 +1,140 @@
-﻿source_file,parameter,n_non_null,n_null,min,p05,median,mean,p95,max,std,iqr
-data/СТС.csv,1990,0,83,,,,,,,,
-data/СТС.csv,1991,0,83,,,,,,,,
-data/СТС.csv,1992,2,81,59.0,60.15,70.5,70.5,80.85,82.0,16.263455967290593,11.5
-data/СТС.csv,1993,3,80,51.0,54.3,84.0,75.33333333333333,90.3,91.0,21.361959960016154,20.0
-data/СТС.csv,1994,5,78,36.0,37.2,43.0,52.4,79.19999999999999,85.0,19.629060089571276,14.0
-data/СТС.csv,1995,6,77,42.0,42.0,72.0,75.66666666666667,122.0,131.0,36.59872493225231,50.75
-data/СТС.csv,1996,17,66,27.0,32.6,45.0,54.705882352941174,93.19999999999999,110.0,22.692963407966225,31.0
-data/СТС.csv,1997,12,71,37.0,38.65,56.0,62.666666666666664,104.14999999999998,119.0,24.12970004460114,24.25
-data/СТС.csv,1998,16,67,25.0,34.75,56.5,62.125,103.25,134.0,27.635424126773714,30.5
-data/СТС.csv,1999,20,63,23.0,29.650000000000002,52.5,60.15,93.85000000000002,129.0,27.97418923146647,46.5
-data/СТС.csv,2000,19,64,31.0,32.8,59.0,66.73684210526316,112.49999999999997,126.0,29.76545743206966,44.5
-data/СТС.csv,2001,20,63,27.0,31.75,48.5,64.0,112.05000000000001,132.0,31.79870901053755,48.0
-data/СТС.csv,2002,12,71,38.0,41.3,76.0,79.83333333333333,127.59999999999998,143.0,33.26158945891392,55.0
-data/СТС.csv,2003,21,62,35.0,48.0,78.0,81.0952380952381,126.0,148.0,30.891592322029567,58.0
-data/СТС.csv,2004,24,59,25.0,27.950000000000003,77.5,81.54166666666667,133.25,155.0,35.303626081363845,50.0
-data/СТС.csv,2005,34,49,33.0,36.25,59.5,75.67647058823529,143.45,167.0,35.12378162514145,45.0
-data/СТС.csv,2006,33,50,30.0,32.0,54.0,71.96969696969697,137.0,156.0,35.76964918796804,50.0
-data/СТС.csv,2007,36,47,41.0,43.75,69.5,76.55555555555556,131.25,151.0,29.747935769388818,35.75
-data/СТС.csv,2008,43,40,34.0,37.1,73.0,76.13953488372093,135.7,203.0,36.91984973615711,44.5
-data/СТС.csv,2009,45,38,25.0,28.0,64.0,69.71111111111111,122.0,199.0,34.69976566741824,40.0
-data/СТС.csv,2010,49,34,28.0,39.6,65.0,75.95918367346938,142.19999999999996,197.0,34.52713859154459,42.0
-data/СТС.csv,2011,50,33,32.0,36.8,66.0,78.56,153.39999999999998,201.0,37.32546321322259,46.25
-data/СТС.csv,2012,51,32,30.0,33.5,69.0,78.86274509803921,149.5,201.0,39.510514857613856,52.0
-data/СТС.csv,2013,54,29,24.0,36.5,67.0,76.83333333333333,150.14999999999995,201.0,38.47113595784237,47.75
-data/СТС.csv,2014,47,36,33.0,38.6,71.0,79.57446808510639,156.99999999999994,203.0,37.38038585934506,44.0
-data/СТС.csv,2015,53,30,27.0,32.8,75.0,79.86792452830188,156.0,201.0,39.74874828017039,54.0
-data/СТС.csv,2016,56,27,29.0,32.75,73.0,84.33928571428571,164.5,201.0,41.800076896716696,56.75
-data/СТС.csv,2017,55,28,26.0,35.2,66.0,73.92727272727272,139.59999999999997,203.0,35.3332570992126,42.5
-data/СТС.csv,2018,57,26,30.0,37.8,66.0,75.91228070175438,126.79999999999984,201.0,35.556936585543625,48.0
-data/СТС.csv,2019,51,32,32.0,42.0,72.0,80.13725490196079,145.5,205.0,36.27948158827143,49.0
-data/СТС.csv,2020,53,30,39.0,42.0,76.0,86.75471698113208,156.59999999999994,206.0,40.64191927458897,62.0
-data/СТС.csv,2021,52,31,31.0,43.55,75.5,84.9423076923077,140.54999999999993,208.0,38.02806675649976,53.5
-data/СТС.csv,2022,58,25,33.0,36.7,68.5,82.44827586206897,172.89999999999998,208.0,41.8066444873418,52.5
-data/СТС.csv,2023,46,37,25.0,33.25,58.0,79.15217391304348,161.75,206.0,45.51628152714116,62.0
-data/СТС.csv,2024,22,61,40.0,42.2,78.0,90.5,194.2,206.0,47.94912979000816,57.25
-data/СТС.csv,2025,10,73,42.0,43.8,58.5,90.6,178.74999999999994,208.0,56.251814785539736,77.5
+source_file,parameter,station_id,station_name,period_start,period_end,unit,n_non_null,n_null,min,p05,median,mean,p95,max,std,iqr,notes
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,24266,Верхоянск,1885,2025,degC,47228,4272,-66.1,-51.3,-11.8,-14.81294359278394,18.4,28.9,24.185847699618773,46.1,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,24266,Верхоянск,1885,2025,mm,46645,4855,0.0,0.0,0.0,0.44107407010397687,2.3,44.2,1.6252447401609396,0.2,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,24343,Жиганск,1936,2025,degC,32037,836,-58.0,-43.4,-8.8,-11.087583107032495,18.0,27.9,20.663600955242703,37.9,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,24343,Жиганск,1936,2025,mm,32318,555,0.0,0.0,0.0,0.8433349836004703,4.4,73.7,2.458183363836372,0.6,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,24688,Оймякон,1943,2025,degC,29895,421,-62.6,-51.7,-13.4,-15.750490048503094,15.8,26.8,23.74592110929767,45.7,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,24688,Оймякон,1943,2025,mm,29899,417,0.0,0.0,0.0,0.5985083113147598,3.2,39.4,1.893616145946868,0.3,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,24944,Олёкминск,1882,2025,degC,45661,6935,-56.9,-39.0,-2.6,-5.866196535336502,20.2,28.8,19.31167492250679,33.0,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,24944,Олёкминск,1882,2025,mm,45883,6713,0.0,0.0,0.0,0.8046466011376763,3.8,93.5,2.5592923047055267,0.6,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,24959,Якутск,1888,2025,degC,48968,1437,-61.5,-45.3,-5.6,-9.359230517889234,20.9,29.6,22.546309068290846,42.0,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,24959,Якутск,1888,2025,mm,49136,1269,0.0,0.0,0.0,0.589415092803647,3.0,48.5,2.107371164408536,0.3,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,tmean_degC,30230,Киренск,1892,2024,degC,46078,2501,-54.6,-35.9,-0.5,-3.5114957246408265,20.0,27.2,17.57753632351587,27.700000000000003,Raw WMO fixed-width daily export; profile by station.
+data/air/wr373144a2/wr373144a2.txt,precip_mm,30230,Киренск,1892,2024,mm,45663,2916,0.0,0.0,0.0,1.0372533561088846,4.9,66.5,2.808212668664391,0.9,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,24266,Верхоянск,1885,2025,cm,39195,12304,0.0,0.0,2.0,8.840107156525066,29.0,46.0,10.666775176020268,17.0,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,24343,Жиганск,1936,2025,cm,32162,711,0.0,0.0,21.0,22.88710279211492,65.0,102.0,23.010877517690258,39.0,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,24688,Оймякон,1943,2025,cm,29733,583,0.0,0.0,9.0,12.772508660410992,36.0,52.0,13.291573415986619,24.0,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,24944,Олёкминск,1882,2025,cm,39099,13496,0.0,0.0,1.0,13.852272436635207,50.0,200.0,18.20888027938718,28.0,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,24959,Якутск,1888,2025,cm,40154,10250,0.0,0.0,0.0,10.428699506898441,36.0,61.0,13.282551676255858,22.0,Raw WMO fixed-width daily export; profile by station.
+data/snow/wr373144a5/wr373144a5.txt,snow_depth_cm,30230,Киренск,1892,2024,cm,36058,12520,0.0,0.0,0.0,14.376421321204726,50.0,87.0,18.474504441173274,30.0,Raw WMO fixed-width daily export; profile by station.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,24266,Верхоянск,1964,2024,degC,16892,5800,-36.4,-29.3,-4.1,-6.511490646459863,15.5,21.5,15.521869999013242,30.1,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,24266,Верхоянск,1964,2024,degC,11085,11607,-32.0,-25.679999999999996,-1.5,-4.752223725755526,11.6,16.5,12.61825662952548,23.6,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,24266,Верхоянск,1964,2024,degC,18659,4033,-23.8,-19.2,-2.8,-5.623447130071279,4.8,9.5,8.052171412683974,14.100000000000001,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,24266,Верхоянск,1964,2024,degC,19353,3339,-39.6,-15.2,-4.7,-6.075631685010075,-0.1,8.3,5.295719389853392,9.4,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,24266,Верхоянск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,24266,Верхоянск,1964,2024,degC,20505,2187,-14.4,-12.6,-6.0,-6.590626676420386,-1.9,12.4,3.613395618984737,6.299999999999999,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,24343,Жиганск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,24343,Жиганск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,24343,Жиганск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,24343,Жиганск,1964,2024,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,24343,Жиганск,1964,2024,degC,14057,8635,-18.5,-10.2,-0.8,0.9036636551184464,15.0,21.9,7.843236781647494,11.5,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,24343,Жиганск,1964,2024,degC,10701,11991,-11.7,-7.9,-0.6,0.8510886833006261,13.1,18.5,6.510956544400302,9.6,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,24343,Жиганск,1964,2024,degC,1,22691,0.0,0.0,0.0,0.0,0.0,0.0,,0.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,24343,Жиганск,1964,2024,degC,17419,5273,-14.5,-7.4,-0.1,0.33839485619151505,9.9,14.4,5.146642465424094,6.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,24343,Жиганск,1964,2024,degC,10802,11890,-8.0,-4.8,0.0,0.668968709498241,7.8,13.1,3.670558859824123,3.5999999999999996,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,24343,Жиганск,1964,2024,degC,17154,5538,-11.4,-5.5,0.0,-0.13034860673895307,5.1,10.9,3.0120984646213578,1.4,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,24343,Жиганск,1964,2024,degC,10164,12528,-5.3,-1.5,0.0,0.24339826839826845,2.7,8.6,1.3552477812703294,0.3,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,24343,Жиганск,1964,2024,degC,4639,18053,-7.4,-5.8,-0.4,-1.2082345333045914,1.4,3.3,2.0840368165002805,1.9,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,24688,Оймякон,1963,2024,degC,0,23064,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,24688,Оймякон,1963,2024,degC,0,23064,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,24688,Оймякон,1963,2024,degC,0,23064,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,24688,Оймякон,1963,2024,degC,0,23064,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,24688,Оймякон,1963,2024,degC,17462,5602,-35.1,-24.0,-5.7,-6.52561562249456,10.6,20.7,11.944473820549101,22.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,24688,Оймякон,1963,2024,degC,13365,9699,-27.9,-19.6,-4.4,-6.183651328095772,6.8,12.1,8.972961553820044,16.099999999999998,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,24688,Оймякон,1963,2024,degC,0,23064,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,24688,Оймякон,1963,2024,degC,17542,5522,-25.1,-19.6,-3.8,-6.257473492190172,4.1,9.0,7.962851205989315,14.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,24688,Оймякон,1963,2024,degC,175,22889,-5.0,-3.9299999999999997,0.1,-0.09885714285714296,1.5,1.5,1.6464168188959667,1.3,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,24688,Оймякон,1963,2024,degC,15545,7519,-20.6,-17.0,-4.4,-6.27225474429077,0.1,5.9,6.045947990123656,11.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,24688,Оймякон,1963,2024,degC,205,22859,-7.3,-6.38,-1.6,-2.525853658536585,-1.0,-0.9,1.8039077619915367,2.6,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,24688,Оймякон,1963,2024,degC,3208,19856,-16.0,-13.764999999999999,-6.3,-6.973254364089776,-2.0,0.2,4.158207636305444,7.799999999999999,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,24944,Олёкминск,1964,2024,degC,120,22572,-10.6,-10.2,-9.149999999999999,-7.770833333333333,-0.7,-0.5,2.9885325882132063,2.5999999999999996,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,24944,Олёкминск,1964,2024,degC,181,22511,-9.8,-9.3,-6.7,-1.4303867403314918,15.7,25.3,9.435801465378837,14.5,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,24944,Олёкминск,1964,2024,degC,181,22511,-9.2,-8.9,-6.6,-1.5679558011049721,14.8,23.4,8.839210040007474,12.2,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,24944,Олёкминск,1964,2024,degC,31,22661,-1.4,-1.05,2.5,2.832258064516129,7.75,8.4,3.1708450079617783,5.85,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,24944,Олёкминск,1964,2024,degC,18692,4000,-15.3,-8.7,-0.3,1.560919109779585,15.2,57.0,7.9371972494750445,13.799999999999999,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,24944,Олёкминск,1964,2024,degC,14231,8461,-10.0,-6.4,-0.2,1.442386339680978,12.4,15.6,6.119066389225463,10.3,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,24944,Олёкминск,1964,2024,degC,1849,20843,-11.2,-7.8,-0.4,1.2361276365603031,12.7,14.8,6.841253724950906,11.5,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,24944,Олёкминск,1964,2024,degC,21856,836,-10.6,-5.6,-0.3,0.9333592606149341,9.3,31.1,4.6473583356105905,6.8999999999999995,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,24944,Олёкминск,1964,2024,degC,11505,11187,-7.1,-4.6,-0.2,0.5965754019991307,6.9,11.7,3.597192454710658,5.4,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,24944,Олёкминск,1964,2024,degC,20470,2222,-5.1,-2.4,-0.1,0.6267953102100635,5.1,7.3,2.2627604056755715,2.9000000000000004,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,24944,Олёкминск,1964,2024,degC,10045,12647,-2.4,-1.4,-0.1,0.23291189646590346,3.0,4.7,1.290239193763503,1.3,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,24944,Олёкминск,1964,2024,degC,15074,7618,-1.4,-0.7,0.0,0.1989518376011676,1.9,3.4,0.7344723103509089,0.4,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,24959,Якутск,1964,2024,degC,11,22681,6.2,6.300000000000001,7.1,7.372727272727274,9.1,10.0,1.1349809770131911,1.4500000000000002,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,24959,Якутск,1964,2024,degC,42,22650,-9.0,-8.9,-7.4,-4.319047619047619,6.194999999999999,7.2,6.161732338580707,10.15,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,24959,Якутск,1964,2024,degC,11,22681,3.9,4.05,4.8,4.963636363636364,5.9,6.1,0.6697353615760889,0.9000000000000004,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,24959,Якутск,1964,2024,degC,103,22589,-8.9,-8.69,-4.9,-3.4349514563106798,4.379999999999999,5.5,4.532469108897556,7.75,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,24959,Якутск,1964,2024,degC,18184,4508,-25.5,-10.9,-1.5,1.554514958205015,17.4,24.3,9.555369285504584,16.5,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,24959,Якутск,1964,2024,degC,13874,8818,-11.1,-7.8,-1.1,1.360256595069915,14.2,18.7,7.274985880055058,12.3,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,24959,Якутск,1964,2024,degC,2112,20580,-17.4,-13.7,-1.6,-0.26065340909090917,14.3,16.4,9.379734150921788,17.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,24959,Якутск,1964,2024,degC,21348,1344,-16.3,-8.2,-0.8,0.4117950159265505,10.4,14.4,5.86328729573714,8.8,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,24959,Якутск,1964,2024,degC,20923,1769,-13.0,-5.8,-0.5,0.03220857429622901,7.0,10.0,3.873429723939342,4.7,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,24959,Якутск,1964,2024,degC,21581,1111,-9.4,-3.8,-0.4,-0.18438441221444796,4.4,7.5,2.4213287808960144,2.2,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,24959,Якутск,1964,2024,degC,20536,2156,-3.6,-1.5,-0.5,-0.3345344760420725,1.8,5.1,1.01976159742735,0.49999999999999994,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,24959,Якутск,1964,2024,degC,20469,2223,-3.5,-1.5,-0.6,-0.5949435732082662,0.5,3.8,0.624068845537449,0.30000000000000004,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_2cm_degC,30230,Киренск,1963,2023,degC,841,21851,-14.1,-11.6,-2.7,1.4508917954815699,21.9,25.5,11.073155109755593,19.6,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_5cm_degC,30230,Киренск,1963,2023,degC,862,21830,-14.1,-11.4,-1.9,1.6045243619489564,21.28999999999999,24.8,10.918142918065914,19.725,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_10cm_degC,30230,Киренск,1963,2023,degC,801,21891,-13.6,-11.3,-3.2,0.3624219725343317,18.8,24.4,10.059054310754894,17.0,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_15cm_degC,30230,Киренск,1963,2023,degC,893,21799,-13.3,-11.04,-0.9,1.85979843225084,20.9,24.3,10.527545907251131,18.4,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_20cm_degC,30230,Киренск,1963,2023,degC,17029,5663,-16.6,-10.0,0.2,3.291925538786775,20.6,26.2,10.349788438818704,18.7,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_40cm_degC,30230,Киренск,1963,2023,degC,12616,10076,-13.4,-8.4,1.0,3.6302076727964487,18.7,23.2,9.169670222541392,16.7,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_60cm_degC,30230,Киренск,1963,2023,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_80cm_degC,30230,Киренск,1963,2023,degC,21930,762,-12.3,-6.9,1.1,3.2383812129502965,16.2,19.8,7.759576686227714,13.8,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_120cm_degC,30230,Киренск,1963,2023,degC,0,22692,,,,,,,,,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_160cm_degC,30230,Киренск,1963,2023,degC,21474,1218,-7.7,-3.1,1.5,3.500442395454969,12.8,15.3,5.338765954391145,9.1,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_240cm_degC,30230,Киренск,1963,2023,degC,538,22154,-1.7,-1.3,0.4,1.7968401486988848,9.314999999999998,9.9,3.3222416845447302,3.5,Raw WMO fixed-width daily export; profile by station and depth.
+data/soil/wr373144a3/wr373144a3.txt,soil_temp_320cm_degC,30230,Киренск,1963,2023,degC,22252,440,-3.2,0.6,2.8499999999999996,3.644751033614956,8.2,9.9,2.632129644140343,4.7,Raw WMO fixed-width daily export; profile by station and depth.
+data/hydro/lena-kirensk.csv,water_level_cm,,kirensk,2001,2024,cm,6679,0,-175.0,-42.0,40.0,77.35469381643959,322.0,627.0,114.79452373261553,117.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-lensk.csv,water_level_cm,,lensk,2001,2026,cm,7191,0,-87.0,2.0,168.0,240.19830343484912,705.0,1353.0,227.97534125350612,312.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-olekminsk.csv,water_level_cm,,olekminsk,2001,2026,cm,7016,0,-71.0,24.0,163.0,250.01125997719498,716.0,1136.0,228.34398533661903,316.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-pokrovsk.csv,water_level_cm,,pokrovsk,2001,2026,cm,6867,0,-6.0,75.0,243.0,294.72273190621814,654.0,1123.0,185.48325734012406,266.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-sangar.csv,water_level_cm,,sangar,2001,2026,cm,6834,0,-18.0,72.0,292.0,339.46136962247584,757.3499999999995,1267.0,228.75844959289788,355.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-tabaga.csv,water_level_cm,,tabaga,2001,2026,cm,6939,0,-122.0,48.0,261.0,319.2468655425854,738.0,1199.0,224.20680793417222,337.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-vitim.csv,water_level_cm,,vitim,2001,2026,cm,7258,0,-205.0,-22.0,113.0,184.07316065031688,610.1499999999996,1113.0,201.8251999823061,244.75,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-yakutsk.csv,water_level_cm,,yakutsk,2001,2026,cm,6930,0,-347.0,-306.0,-55.0,5.0932178932178935,459.5499999999993,858.0,245.46400045720796,366.0,Daily Lena River gauge file; one CSV per post.
+data/hydro/lena-zhigansk.csv,water_level_cm,,zhigansk,2001,2026,cm,6679,0,-304.0,-171.0,118.0,196.12187453211558,801.0999999999995,1467.0,309.59246144311965,428.5,Daily Lena River gauge file; one CSV per post.
+data/СТС.csv,ALT_1990,,,1990,1990,cm,0,83,,,,,,,,,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1991,,,1991,1991,cm,0,83,,,,,,,,,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1992,,,1992,1992,cm,2,81,59.0,60.15,70.5,70.5,80.85,82.0,16.263455967290593,11.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1993,,,1993,1993,cm,3,80,51.0,54.3,84.0,75.33333333333333,90.3,91.0,21.361959960016154,20.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1994,,,1994,1994,cm,5,78,36.0,37.2,43.0,52.4,79.19999999999999,85.0,19.62906008957128,14.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1995,,,1995,1995,cm,6,77,42.0,42.0,72.0,75.66666666666667,122.0,131.0,36.59872493225231,50.75,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1996,,,1996,1996,cm,17,66,27.0,32.6,45.0,54.705882352941174,93.19999999999999,110.0,22.692963407966225,31.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1997,,,1997,1997,cm,12,71,37.0,38.65,56.0,62.666666666666664,104.14999999999998,119.0,24.129700044601137,24.25,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1998,,,1998,1998,cm,16,67,25.0,34.75,56.5,62.125,103.25,134.0,27.635424126773714,30.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_1999,,,1999,1999,cm,20,63,23.0,29.650000000000002,52.5,60.15,93.85000000000002,129.0,27.974189231466475,46.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2000,,,2000,2000,cm,19,64,31.0,32.8,59.0,66.73684210526316,112.49999999999997,126.0,29.76545743206966,44.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2001,,,2001,2001,cm,20,63,27.0,31.75,48.5,64.0,112.05000000000001,132.0,31.79870901053755,48.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2002,,,2002,2002,cm,12,71,38.0,41.3,76.0,79.83333333333333,127.59999999999998,143.0,33.26158945891392,55.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2003,,,2003,2003,cm,21,62,35.0,48.0,78.0,81.0952380952381,126.0,148.0,30.89159232202957,58.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2004,,,2004,2004,cm,24,59,25.0,27.950000000000003,77.5,81.54166666666667,133.25,155.0,35.303626081363845,50.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2005,,,2005,2005,cm,34,49,33.0,36.25,59.5,75.67647058823529,143.45,167.0,35.12378162514145,45.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2006,,,2006,2006,cm,33,50,30.0,32.0,54.0,71.96969696969697,137.0,156.0,35.76964918796805,50.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2007,,,2007,2007,cm,36,47,41.0,43.75,69.5,76.55555555555556,131.25,151.0,29.747935769388818,35.75,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2008,,,2008,2008,cm,43,40,34.0,37.1,73.0,76.13953488372093,135.7,203.0,36.91984973615712,44.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2009,,,2009,2009,cm,45,38,25.0,28.0,64.0,69.71111111111111,122.0,199.0,34.69976566741824,40.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2010,,,2010,2010,cm,49,34,28.0,39.6,65.0,75.95918367346938,142.19999999999996,197.0,34.52713859154459,42.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2011,,,2011,2011,cm,50,33,32.0,36.8,66.0,78.56,153.39999999999998,201.0,37.32546321322259,46.25,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2012,,,2012,2012,cm,51,32,30.0,33.5,69.0,78.86274509803921,149.5,201.0,39.51051485761386,52.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2013,,,2013,2013,cm,54,29,24.0,36.5,67.0,76.83333333333333,150.14999999999995,201.0,38.47113595784237,47.75,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2014,,,2014,2014,cm,47,36,33.0,38.6,71.0,79.57446808510639,156.99999999999994,203.0,37.38038585934506,44.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2015,,,2015,2015,cm,53,30,27.0,32.8,75.0,79.86792452830188,156.0,201.0,39.74874828017039,54.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2016,,,2016,2016,cm,56,27,29.0,32.75,73.0,84.33928571428571,164.5,201.0,41.80007689671669,56.75,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2017,,,2017,2017,cm,55,28,26.0,35.2,66.0,73.92727272727272,139.59999999999997,203.0,35.333257099212595,42.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2018,,,2018,2018,cm,57,26,30.0,37.8,66.0,75.91228070175438,126.79999999999984,201.0,35.556936585543625,48.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2019,,,2019,2019,cm,51,32,32.0,42.0,72.0,80.13725490196079,145.5,205.0,36.27948158827143,49.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2020,,,2020,2020,cm,53,30,39.0,42.0,76.0,86.75471698113208,156.59999999999994,206.0,40.64191927458897,62.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2021,,,2021,2021,cm,52,31,31.0,43.55,75.5,84.9423076923077,140.54999999999993,208.0,38.02806675649976,53.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2022,,,2022,2022,cm,58,25,33.0,36.7,68.5,82.44827586206897,172.89999999999998,208.0,41.8066444873418,52.5,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2023,,,2023,2023,cm,46,37,25.0,33.25,58.0,79.15217391304348,161.75,206.0,45.51628152714115,62.0,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2024,,,2024,2024,cm,22,61,40.0,42.2,78.0,90.5,194.2,206.0,47.94912979000816,57.25,Annual active-layer / seasonal thaw depth values across sites.
+data/СТС.csv,ALT_2025,,,2025,2025,cm,10,73,42.0,43.8,58.5,90.6,178.74999999999994,208.0,56.25181478553973,77.5,Annual active-layer / seasonal thaw depth values across sites.
+data/mchs_events.csv,event_duration_days,,,1991,2024,days,149,0,1.0,1.0,6.0,13.161073825503356,41.99999999999994,119.0,17.9850039312388,17.0,Incident-level emergency archive.
+data/mchs_events.csv,damage_rub,,,1991,2024,rub,0,149,,,,,,,,,Incident-level emergency archive; many records have no damage estimate.
+data/mchs_events_lena_bank.csv,event_duration_days,,,2008,2023,days,18,0,1.0,1.0,3.0,7.277777777777778,30.299999999999997,32.0,9.760698839225876,6.75,Incident-level emergency archive.
+data/mchs_events_lena_bank.csv,damage_rub,,,2008,2023,rub,0,18,,,,,,,,,Incident-level emergency archive; many records have no damage estimate.
