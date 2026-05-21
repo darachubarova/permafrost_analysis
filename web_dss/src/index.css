@@ -1,0 +1,248 @@
+/* CSS Design System for Permafrost DSS (Yakutia) */
+
+:root {
+  /* Color Palette - Cyberpunk / Sci-fi Dark Mode First */
+  --bg-primary: #070913;
+  --bg-secondary: #0f1225;
+  --panel-bg: rgba(16, 20, 38, 0.75);
+  --panel-border: rgba(255, 255, 255, 0.32); /* Stronger panel borders */
+  --panel-hover-border: rgba(139, 92, 246, 0.85);
+  
+  --text-primary: #ffffff;
+  --text-secondary: #f1f5f9; /* Extra crisp light grey */
+  --text-muted: #cbd5e1; /* Clear grey for minor texts */
+  
+  /* Slider Variables for Dark Mode */
+  --slider-bg: rgba(255, 255, 255, 0.08);
+  --slider-bg-hover: rgba(255, 255, 255, 0.16);
+  --slider-border: rgba(255, 255, 255, 0.35);
+  --slider-track: rgba(255, 255, 255, 0.5);
+  
+  /* Contrast-Optimized Control Variables - Dark Mode */
+  --ctrl-bg: rgba(10, 12, 26, 0.98);
+  --ctrl-bg-hover: rgba(20, 24, 48, 0.99);
+  --ctrl-border: #ffffff; /* Solid White for ultimate boundary contrast */
+  --ctrl-border-hover: var(--accent-secondary);
+  --ctrl-track: rgba(255, 255, 255, 0.35); /* Increased contrast background track */
+  --ctrl-track-filled: var(--accent-primary);
+  --ctrl-track-filled-cyan: var(--accent-secondary);
+  --ctrl-thumb: var(--accent-primary); /* Primary vibrant thumb center */
+  --ctrl-thumb-cyan: var(--accent-secondary); /* Secondary vibrant thumb center */
+  --ctrl-thumb-border: #ffffff; /* White crisp border on thumb */
+  --ctrl-text: #ffffff;
+  --ctrl-limits: #ffffff; /* Pure white labels */
+  
+  --input-bg: #030408;
+  --input-border: #ffffff; /* Solid white border for ultimate contrast */
+  --input-text: #ffffff;
+  --input-focus-border: var(--accent-secondary);
+  
+  --btn-bg: rgba(10, 12, 26, 0.98);
+  --btn-border: #ffffff; /* Solid white border for extreme button contrast */
+  --btn-hover-bg: rgba(139, 92, 246, 0.35);
+  --btn-hover-border: var(--accent-secondary);
+  
+  --table-border: rgba(255, 255, 255, 0.58); /* Clear table borders */
+  --table-row-hover: rgba(255, 255, 255, 0.12);
+  --table-header-bg: rgba(15, 23, 42, 0.95);
+  
+  --nav-active-bg: rgba(139, 92, 246, 0.32); /* Darker active nav bg */
+  --nav-active-border: var(--accent-primary);
+  --nav-active-text: #ffffff;
+  
+  /* Dynamic structural variables */
+  --badge-bg: rgba(255, 255, 255, 0.12);
+  --badge-text: var(--text-secondary);
+  --badge-border: rgba(255, 255, 255, 0.28);
+  --gauge-track: rgba(255, 255, 255, 0.18);
+  --chk-bg: rgba(5, 6, 14, 0.85);
+  --chk-border: rgba(255, 255, 255, 0.55); /* High-contrast border */
+  --card-secondary-bg: rgba(5, 6, 14, 0.7);
+  --chart-bg: rgba(5, 6, 14, 0.75);
+  --chart-border: rgba(255, 255, 255, 0.38); /* Sharper chart border */
+  --chart-grid: rgba(255, 255, 255, 0.22); /* Easily visible gridlines */
+  
+  /* Accent Colors */
+  --accent-primary: #a78bfa; /* Slightly lighter electric violet for dark mode contrast */
+  --accent-primary-glow: rgba(167, 139, 250, 0.22);
+  --accent-secondary: #22d3ee; /* Ice Cyan high-contrast */
+  --accent-secondary-glow: rgba(34, 211, 238, 0.22);
+  
+  /* Alert / State Colors */
+  --color-low: #34d399; /* Higher contrast green */
+  --color-low-glow: rgba(52, 211, 153, 0.25);
+  --color-moderate: #fbbf24; /* Higher contrast yellow */
+  --color-moderate-glow: rgba(251, 191, 36, 0.25);
+  --color-extreme: #f87171; /* Higher contrast red */
+  --color-extreme-glow: rgba(248, 113, 113, 0.25);
+  
+  /* Fonts */
+  --sans: 'Outfit', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --mono: 'JetBrains Mono', ui-monospace, monospace;
+  
+  /* Shadows & Radius */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.2);
+  --shadow-md: 0 10px 25px -5px rgba(0, 0, 0, 0.4), 0 8px 10px -6px rgba(0, 0, 0, 0.4);
+  --shadow-glow-purple: 0 0 20px rgba(167, 139, 250, 0.3);
+  --shadow-glow-cyan: 0 0 20px rgba(34, 211, 238, 0.3);
+  --radius-lg: 16px;
+  --radius-md: 10px;
+  --radius-sm: 6px;
+  
+  --sidebar-bg: rgba(10, 12, 26, 0.92);
+  --topbar-bg: rgba(10, 12, 26, 0.45);
+  --nav-hover-bg: rgba(255, 255, 255, 0.05);
+  --nav-hover-border: rgba(255, 255, 255, 0.1);
+
+  box-sizing: border-box;
+}
+
+/* Optional Light Mode Override - HSL calibrated for clinical/scientific clarity */
+.light-theme {
+  --bg-primary: #f8fafc;
+  --bg-secondary: #f1f5f9;
+  --panel-bg: rgba(255, 255, 255, 0.96);
+  --panel-border: rgba(15, 23, 42, 0.48); /* Solid visible boundaries */
+  --panel-hover-border: rgba(124, 58, 237, 0.85);
+  
+  --text-primary: #0f172a; /* Deep slate, excellent contrast */
+  --text-secondary: #1e293b; /* Strong slate-800 for high legibility */
+  --text-muted: #334155; /* Much darker grey for annotations */
+  
+  /* Slider Variables for Light Mode */
+  --slider-bg: rgba(0, 0, 0, 0.06);
+  --slider-bg-hover: rgba(0, 0, 0, 0.12);
+  --slider-border: rgba(0, 0, 0, 0.32);
+  --slider-track: rgba(0, 0, 0, 0.4);
+  
+  /* Contrast-Optimized Control Variables - Light Mode */
+  --ctrl-bg: #ffffff;
+  --ctrl-bg-hover: #f5f3ff;
+  --ctrl-border: #0f172a; /* Solid dark slate border */
+  --ctrl-border-hover: var(--accent-primary);
+  --ctrl-track: rgba(15, 23, 42, 0.32); /* High contrast light unfilled track bar */
+  --ctrl-track-filled: var(--accent-primary);
+  --ctrl-track-filled-cyan: var(--accent-secondary);
+  --ctrl-thumb: var(--accent-primary); /* Primary vibrant thumb center */
+  --ctrl-thumb-cyan: var(--accent-secondary); /* Secondary vibrant thumb center */
+  --ctrl-thumb-border: #0f172a; /* Strong dark border on thumb */
+  --ctrl-text: #0f172a;
+  --ctrl-limits: #0f172a; /* Pure high contrast text */
+  
+  --input-bg: #ffffff;
+  --input-border: #0f172a; /* Solid dark slate border */
+  --input-text: #0f172a;
+  --input-focus-border: var(--accent-secondary);
+  
+  --btn-bg: #ffffff;
+  --btn-border: #0f172a; /* Solid dark slate border */
+  --btn-hover-bg: rgba(124, 58, 237, 0.18);
+  --btn-hover-border: var(--accent-primary);
+  
+  --table-border: rgba(15, 23, 42, 0.65); /* Prominent table grids */
+  --table-row-hover: rgba(15, 23, 42, 0.12);
+  --table-header-bg: #cbd5e1; /* Deep distinct background for table headers */
+  
+  --nav-active-bg: rgba(124, 58, 237, 0.26); /* Darker active nav bg in light mode */
+  --nav-active-border: var(--accent-primary);
+  --nav-active-text: #0f172a;
+  
+  /* Dynamic structural variables */
+  --badge-bg: rgba(15, 23, 42, 0.08);
+  --badge-text: var(--text-secondary);
+  --badge-border: rgba(15, 23, 42, 0.26);
+  --gauge-track: rgba(15, 23, 42, 0.14);
+  --chk-bg: rgba(241, 245, 249, 0.98);
+  --chk-border: rgba(15, 23, 42, 0.65); /* Highly crisp borders */
+  --card-secondary-bg: rgba(241, 245, 249, 0.8);
+  --chart-bg: rgba(255, 255, 255, 0.98);
+  --chart-border: rgba(15, 23, 42, 0.52); /* Distinct chart boundary */
+  --chart-grid: rgba(15, 23, 42, 0.32); /* Sharp gridlines */
+  
+  --accent-primary: #7c3aed;
+  --accent-primary-glow: rgba(124, 58, 237, 0.2);
+  --accent-secondary: #0891b2;
+  --accent-secondary-glow: rgba(8, 145, 178, 0.2);
+  
+  --color-low: #059669;
+  --color-low-glow: rgba(5, 150, 105, 0.14);
+  --color-moderate: #d97706;
+  --color-moderate-glow: rgba(217, 119, 6, 0.14);
+  --color-extreme: #dc2626;
+  --color-extreme-glow: rgba(220, 38, 38, 0.14);
+  
+  --shadow-md: 0 10px 15px -3px rgba(148, 163, 184, 0.15), 0 4px 6px -4px rgba(148, 163, 184, 0.15);
+  
+  --sidebar-bg: rgba(241, 245, 249, 0.94);
+  --topbar-bg: rgba(241, 245, 249, 0.55);
+  --nav-hover-bg: rgba(15, 23, 42, 0.06);
+  --nav-hover-border: rgba(15, 23, 42, 0.3);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--bg-primary);
+  background-image: 
+    radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.05) 0px, transparent 50%),
+    radial-gradient(at 100% 100%, rgba(6, 182, 212, 0.05) 0px, transparent 50%),
+    linear-gradient(to bottom, var(--bg-primary), var(--bg-secondary));
+  background-attachment: fixed;
+  color: var(--text-primary);
+  font-family: var(--sans);
+  font-size: 16px;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Custom sleek scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-primary);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--text-muted);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
+
+/* Fade-in Animation */
+.animate-fade-in {
+  animation: fadeIn 0.5s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-pulse-glow {
+  animation: pulseGlow 2s infinite ease-in-out;
+}
+
+@keyframes pulseGlow {
+  0%, 100% {
+    box-shadow: 0 0 15px rgba(139, 92, 246, 0.1);
+  }
+  50% {
+    box-shadow: 0 0 25px rgba(139, 92, 246, 0.3);
+  }
+}
