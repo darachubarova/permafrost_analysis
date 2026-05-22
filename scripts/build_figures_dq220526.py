@@ -407,7 +407,7 @@ def fig_hydro_share_vs_chs(water_chs: list[dict[str, str]], output_dir: Path) ->
     ax1.set_xlabel("Год")
     ax1.set_ylabel("Доля гидропостов с экстремумами", color="#2a9d8f")
     ax1.tick_params(axis="y", labelcolor="#2a9d8f")
-    ax1.set_xticks(list(years)[::2])
+    ax1.set_xticks(years[::2])
 
     ax2 = ax1.twinx()
     ax2.plot(years, chs, color="#e76f51", marker="s", label="Количество ЧС")
