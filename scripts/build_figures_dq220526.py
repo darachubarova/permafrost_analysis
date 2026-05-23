@@ -26,6 +26,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import statistics
 import sys
 from collections import Counter, defaultdict
 from datetime import date
@@ -41,6 +42,9 @@ except ImportError as exc:  # pragma: no cover
 YEAR_START = 2008
 YEAR_END = 2023
 YEARS = list(range(YEAR_START, YEAR_END + 1))
+
+# Типы ЧС, исключённые из анализа как нерелевантные для гидрологии и мерзлоты
+EXCLUDED_TYPES: set[str] = {"Ветер"}
 
 ANOMALY_COLORS = {
     "temp": "#d73027",
@@ -376,7 +380,7 @@ def fig_peak_lags(peak_lags: list[dict[str, str]], output_dir: Path) -> None:
                 continue
 
     posts = []
-    means = []
+    medians = []
     for post in HYDRO_POST_ORDER:
         if post == "Якутск":
             continue
@@ -384,12 +388,12 @@ def fig_peak_lags(peak_lags: list[dict[str, str]], output_dir: Path) -> None:
         if not series:
             continue
         posts.append(post)
-        means.append(sum(series) / len(series))
+        medians.append(statistics.median(series))
 
     fig, ax = plt.subplots(figsize=(10, 5))
-    ax.bar(posts, means, color="#1d3557")
+    ax.bar(posts, medians, color="#1d3557")
     ax.axhline(0, color="black", linewidth=0.9)
-    ax.set_title("Рис. 2.10: Средний лаг пиков относительно гидропоста Якутск")
+    ax.set_title("Рис. 2.10: Медианный лаг пиков относительно гидропоста Якутск")
     ax.set_xlabel("Гидропост")
     ax.set_ylabel("Лаг, суток")
     ax.tick_params(axis="x", rotation=35)
@@ -448,7 +452,10 @@ def fig_emergency_by_type(mchs: list[dict[str, str]], output_dir: Path) -> None:
         parsed = _parse_event_year_month(row.get("date_start", ""))
         if not parsed:
             continue
-        counter[row.get("type_chs", "Не указан")] += 1
+        t = row.get("type_chs", "Не указан")
+        if t in EXCLUDED_TYPES:
+            continue
+        counter[t] += 1
 
     labels = [k for k, _ in counter.most_common()]
     values = [counter[k] for k in labels]
@@ -468,6 +475,8 @@ def fig_emergency_monthly(mchs: list[dict[str, str]], output_dir: Path) -> None:
         parsed = _parse_event_year_month(row.get("date_start", ""))
         if not parsed:
             continue
+        if row.get("type_chs", "") in EXCLUDED_TYPES:
+            continue
         _, month = parsed
         counter[month] += 1
 
@@ -484,22 +493,39 @@ def fig_emergency_monthly(mchs: list[dict[str, str]], output_dir: Path) -> None:
 
 
 def fig_emergency_trend(mchs: list[dict[str, str]], output_dir: Path) -> None:
-    counter = Counter({y: 0 for y in YEARS})
+    type_year_counts: dict[str, Counter] = defaultdict(lambda: Counter({y: 0 for y in YEARS}))
     for row in mchs:
         parsed = _parse_event_year_month(row.get("date_start", ""))
         if not parsed:
             continue
+        t = row.get("type_chs", "Не указан")
+        if t in EXCLUDED_TYPES:
+            continue
         year, _ = parsed
-        counter[year] += 1
+        type_year_counts[t][year] += 1
 
-    values = [counter[y] for y in YEARS]
+    TYPE_COLORS = {
+        "Затор": "#1d3557",
+        "Половодье": "#457b9d",
+        "Паводок": "#a8dadc",
+        "Чрезвычайная пожароопасность": "#e76f51",
+    }
+    TYPE_LABELS = {
+        "Чрезвычайная пожароопасность": "Пожароопасность",
+    }
 
     fig, ax = plt.subplots(figsize=(10, 4.5))
-    ax.plot(YEARS, values, marker="o", color="#ef476f")
-    ax.set_title("Рис. 3.6: Годовая динамика количества ЧС")
+    for t in sorted(type_year_counts):
+        values = [type_year_counts[t].get(y, 0) for y in YEARS]
+        color = TYPE_COLORS.get(t, "#888888")
+        label = TYPE_LABELS.get(t, t)
+        ax.plot(YEARS, values, marker="o", label=label, color=color)
+
+    ax.set_title("Рис. 3.6: Годовая динамика количества ЧС по типам")
     ax.set_xlabel("Год")
     ax.set_ylabel("Количество событий")
     ax.set_xticks(YEARS[::2])
+    ax.legend()
     save_fig(fig, output_dir, "3_6_emergency_trend_2008_2023")
 
 

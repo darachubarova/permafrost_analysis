@@ -1,0 +1,2 @@
+﻿year,anomaly_date,spring_peak_cm,spring_peak_z,max_rise_7d_cm_day,max_rise_7d_z,hydro_trigger_z,trigger_metric,severity,risk_points,thaw_upstream_date,thaw_yakutsk_date,thaw_lag_upstream_to_yakutsk_days,chs_date,chs_type,chs_location,lag_days,lag_bin
+2020,2020-05-14,854.0,1.579584167365644,123.57142857142857,1.1213953226191473,1.579584167365644,spring_peak_cm_z,moderate,2,2020-04-10,2020-04-12,2,2020-05-20,Затор,(р.Колыма г.Среднеколымск),6,4-7 days
