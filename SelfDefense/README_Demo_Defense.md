@@ -17,7 +17,7 @@
 ### Вариант А (основной): Jupyter Notebook
 
 ```bash
-cd "F:\Dara\permafrost_analysis-main (3)\permafrost_analysis-main\Diploma"
+cd "\Diploma"
 pip install jupyter ipywidgets numpy pandas matplotlib scipy scikit-learn
 jupyter notebook Demo_Defense.ipynb
 ```
